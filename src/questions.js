@@ -23,7 +23,7 @@ export const questions = {
         "True",
         "False"
       ],
-      "correctAnswer": "2",
+      "correctAnswer": "1",
       "messageForCorrectAnswer": "Good. You passed the second one.",
       "messageForIncorrectAnswer": "Bruh do you have eyes",
       "point": "1"
