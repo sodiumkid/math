@@ -13,6 +13,11 @@
   }
 }
 
+.quizzer {
+  margin-top: 50px;
+  margin-left: 15%;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
