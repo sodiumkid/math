@@ -2,13 +2,14 @@ import React from 'react';
 import logo from './logo.svg';
 import './Home.css';
 import './bootstrap.min.css';
+import {Link} from "react-router-dom";
 
 function About() {
   return (
     <div className="About">
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="/">MATH FINAL</a>
+      <Link class="navbar-brand" to="/">MATH FINAL</Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -16,13 +17,13 @@ function About() {
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/">Home </a>
+            <Link class="nav-link" to="/">Home </Link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/quiz">Quiz</a>
+            <Link class="nav-link" to="/quiz">Quiz</Link>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="/about">About <span class="sr-only">(current)</span> </a>
+            <Link class="nav-link" to="/about">About <span class="sr-only">(current)</span></Link>
           </li>
         </ul>
       </div>
