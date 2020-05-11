@@ -20,7 +20,7 @@ function Quiz() {
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <Link class="nav-link" to="/">Home </Link>
+            <Link class="nav-link" to="/resources">Resources</Link>
           </li>
           <li class="nav-item active">
             <Link class="nav-link" to="/quiz">Quiz <span class="sr-only">(current)</span></Link>
