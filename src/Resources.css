@@ -8,8 +8,18 @@
   margin-top: 10px;
 }
 
+.meme {
+  width: 500px;
+  height: auto;
+}
+
 .links {
   font-size: 18pt;
+}
+
+.links:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .note {
