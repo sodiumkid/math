@@ -3,22 +3,35 @@ import './bootstrap.min.css';
 import './Resources.css';
 import { content } from "./Content.js";
 import { Link } from "react-router-dom";
+import nl2br from 'react-newline-to-break';
+
 
 import animate from "animate.css";
 
 function findContent(props) {
   var ans = "";
+  var images = [];
+  var videos = [];
   var cont = "";
   let finder = content.Notes.filter(l => {
     if (l.index == props) {
       ans = l.Title;
       cont = l.Content;
+      for (var i = 0; i < l.Videos.length; i++) {
+        videos.push(<iframe width="560" height="315" src={l.Videos[i].Link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>);
+      }
+      for (var j = 0; j < l.Files.length; j++) {
+        images.push(<img class="meme" src={l.Files[j].Link} />);
+      }
     }
   });
   return (
     <div>
       <h1 > {ans} </h1>
-      <p class="note"> {cont}</p>
+      <p class="note"> {nl2br(cont)}</p>
+      {images}
+      <br /> <br />
+      {videos}
     </div>
   );
 }
