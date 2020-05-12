@@ -22,6 +22,31 @@
   font-weight: bold;
 }
 
+.figure {
+  height: 100px;
+  width: auto;
+}
+
+.flexer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
+
+.imagess {
+  position: relative;
+  display: inline-block;
+}
+
+.desc {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  color: #757575;
+}
+
 .note {
   margin-top:30px;
   font-size: 14pt;

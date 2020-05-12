@@ -5,7 +5,6 @@ import { content } from "./Content.js";
 import { Link } from "react-router-dom";
 import nl2br from 'react-newline-to-break';
 
-
 import animate from "animate.css";
 
 function findContent(props) {
@@ -13,22 +12,47 @@ function findContent(props) {
   var images = [];
   var videos = [];
   var cont = "";
+
+  if (props == 1323) {
+    return (
+      <div>
+        <h1 > 13.2.3 - Area under the curve with a rocket </h1>
+        <p class="note"> {nl2br(cont)} </p>
+        <br/>
+        <img src="https://res.cloudinary.com/drferrel/image/upload/v1589261334/misc/Annotation_2020-05-11_222825_ab00qy.png"/>
+      </div>
+    )
+  }
   let finder = content.Notes.filter(l => {
     if (l.index == props) {
       ans = l.Title;
       cont = l.Content;
+
       for (var i = 0; i < l.Videos.length; i++) {
-        videos.push(<iframe width="560" height="315" src={l.Videos[i].Link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>);
+        videos.push(
+          <div>
+            <iframe width="560" height="315" src={l.Videos[i].Link} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+      );
       }
       for (var j = 0; j < l.Files.length; j++) {
-        images.push(<img class="meme" src={l.Files[j].Link} />);
+        images.push(
+          <div>
+            <div class="imagess">
+              <img class="figure" src={l.Files[j].Link} />
+              <div class="desc"> Figure {l.Files[j].Number}</div>
+            </div>
+            <br />
+          </div>
+        );
       }
     }
   });
   return (
     <div>
       <h1 > {ans} </h1>
-      <p class="note"> {nl2br(cont)}</p>
+      <p class="note"> {nl2br(cont)} </p>
+      <br/>
       {images}
       <br /> <br />
       {videos}
