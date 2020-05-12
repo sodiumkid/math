@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './bootstrap.min.css';
-import './Home.css';
+import './Resources.css';
 import {Link} from "react-router-dom";
 
 import animate from "animate.css";
@@ -35,10 +35,13 @@ function Home() {
 
 
       <body>
-        <div class='quizzer'>
-          <h1>Welcome!</h1>
-          <p>go to the quiz tab</p>
-          <img class="animate__animated animate__delay-1s animate__infinite animate__wobble" src="https://res.cloudinary.com/drferrel/image/upload/v1589223890/misc/IMG_0591_uxnc2g.png"/>
+        <div class='container'>
+          <h1>Welcome to the Chapter 13 Final.</h1>
+          <h3>Go to the <Link to="/resources">Resources Page</Link> to access notes for Chapter 13 or take the <Link to="/quiz"> Ultimate Quiz here</Link>.</h3>
+          <h3> Want a random meme? Go to the <Link to="/quiz"> About Page. </Link> </h3>
+          <br />
+          <img class="animate__animated animate__delay-2s animate__tada" src="https://res.cloudinary.com/drferrel/image/upload/v1589223890/misc/IMG_0591_uxnc2g.png"/>
+          <text> ←-- The one and only Mr. Juarez </text>
           <br/>
         </div>
       </body>
