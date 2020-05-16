@@ -144,7 +144,7 @@ export const content = {
     {
       "index" : 1335,
       "Title" : "13.3.5 - Connecting the area under a curve with its slope",
-      "Content" : "To be Finished......",
+      "Content" : "The area under the velocity curve represents the position function (with an initial point of (0, 0).",
       "Files" : [],
       "Mistakes" : "",
       "Videos" : [],

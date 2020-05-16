@@ -17,7 +17,7 @@ class About extends React.Component {
   }
 
   getReddit = async() => {
-    const url = 'https://www.reddit.com/r/memes.json?sort=top&t=week';
+    const url = 'https://www.reddit.com/r/mathmemes.json?sort=top&t=week';
     try {
         const { body } = await snekfetch
             .get(url)
@@ -63,7 +63,7 @@ class About extends React.Component {
         <body>
           <div class='container'>
             <h1> About </h1>
-            <h3> I don't know what to write so here's a randomly scraped image from r/memes</h3>
+            <h3> I don't know what to write so here's a randomly scraped image from r/mathmemes... funny how this gizmo took more time to make than coding the rest of the webstie</h3>
             <br />
             <img class="meme" src={this.state.image} />
           </div>
