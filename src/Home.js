@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="Home">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <img class="App-logo" src="https://res.cloudinary.com/drferrel/image/upload/v1589223893/misc/72061539_530606401005543_5876809008156770304_n_rusckn.png"/>
       <Link class="navbar-brand" to="/" >MATH FINAL</Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,8 +40,7 @@ function Home() {
           <h3>Go to the <Link to="/resources">Resources Page</Link> to access notes for Chapter 13 or take the <Link to="/quiz"> Ultimate Quiz here</Link>.</h3>
           <h3> Want a random meme? Go to the <Link to="/quiz"> About Page. </Link> </h3>
           <br />
-          <img class="animate__animated animate__delay-2s animate__tada" src="https://res.cloudinary.com/drferrel/image/upload/v1589223890/misc/IMG_0591_uxnc2g.png"/>
-          <text> ←-- The one and only Mr. Juarez </text>
+          <img src="https://ebooks.cpm.org/images/CPM_ebook_banner3.png"/>
           <br/>
         </div>
       </body>

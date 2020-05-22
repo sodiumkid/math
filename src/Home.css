@@ -9,6 +9,10 @@
   pointer-events: none;
 }
 
+.navbar {
+  background-color: #006d40;
+}
+
 .navbar-brand {
   margin-left: 12px;
 }

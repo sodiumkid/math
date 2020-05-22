@@ -4,6 +4,10 @@
   margin-left: 75px;
 }
 
+body {
+  background-color: #fff9eb;
+}
+
 .wrapper {
   margin-top: 10px;
 }
@@ -11,6 +15,11 @@
 .meme {
   width: 500px;
   height: auto;
+}
+
+.navbar {
+  background-color: #006d40;
+  height: 80px;
 }
 
 .links {
