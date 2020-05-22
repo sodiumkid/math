@@ -63,7 +63,7 @@ class About extends React.Component {
         <body>
           <div class='container'>
             <h1> About </h1>
-            <h3> I don't know what to write so here's a randomly scraped image from r/mathmemes... funny how this gizmo took more time to make than coding the rest of the webstie</h3>
+            <h3> Website made for a Math final in Mr. Juarez's class by Daniel Na, Brian Lin, Seojun Yu, and Daniel Fischel. Coded from scratch using react.js (except react-quiz-component). Here's a meme gen from r/mathmemes</h3>
             <br />
             <img class="meme" src={this.state.image} />
           </div>

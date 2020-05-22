@@ -37,13 +37,12 @@ function Home() {
       <body>
         <div class='container'>
           <h1>Welcome to the Chapter 13 Final.</h1>
-          <h3>Go to the <Link to="/resources">Resources Page</Link> to access notes for Chapter 13 or take the <Link to="/quiz"> Ultimate Quiz here</Link>.</h3>
-          <h3> Want a random meme? Go to the <Link to="/quiz"> About Page. </Link> </h3>
+          <h3> Made to help you go through chapter 13 with a breeze.</h3>
+          <h3>Go to the <Link to="/resources">Resources Page</Link> to access notes for Chapter 13 or take the <Link to="/quiz"> Practice Quizzes here</Link>.</h3>
           <br />
           <br/>
           <img src="https://ebooks.cpm.org/images/pc3.jpg" / >
           <br /> <br /> <br /> <br />
-          <text>yes Mr. Juarez, I made this from scratch. Yes, it took effot. Please reward.</text>
         </div>
       </body>
     </div>
