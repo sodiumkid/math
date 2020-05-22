@@ -42,6 +42,7 @@ function Home() {
           <br />
           <img src="https://ebooks.cpm.org/images/CPM_ebook_banner3.png"/>
           <br/>
+          <text>yes Mr. Juarez, I made this from scratch. Yes, it took effot. Please reward.</text>
         </div>
       </body>
     </div>
