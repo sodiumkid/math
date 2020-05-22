@@ -32,8 +32,8 @@ function Home() {
 
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <Link class="nav-link" to="/resources">Resources</Link>
+          <li class="nav-item active">
+            <Link class="nav-link" to="/resources">Resources <span class="sr-only">(current)</span></Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/quiz">Quiz</Link>
