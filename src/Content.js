@@ -105,7 +105,7 @@ export const content = {
       "Title" : "13.3.2 - Velocity vs speed with position",
       "Content" : "Despite often being confused for each other, velocity and speed have a key difference: velocity includes direction, while speed does not. That means that velocity can be negative, while speed cannot. This is because while going in a linear pathway, going backwards can be interpreted as having a negative velocity, while speed does not account for directional movement, but only the rate of movement. So, in a position graph, both speed and velocity relate to the slope, but if the graph goes from a higher y value to a lower y value, velocity is negative while speed is not.",
       "Files" : [],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that even if a change in direction occurs, speed will always remain as a positive value.",
       "Videos" : [],
       "World" : ""
     },

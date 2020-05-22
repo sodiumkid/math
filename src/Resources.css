@@ -12,6 +12,10 @@ body {
   margin-top: 10px;
 }
 
+.m {
+  font-size: 14pt;
+}
+
 .meme {
   width: 500px;
   height: auto;

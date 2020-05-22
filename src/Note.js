@@ -12,6 +12,7 @@ function findContent(props) {
   var images = [];
   var videos = [];
   var cont = "";
+  var mistakes = [];
 
   if (props == 1323) {
     return (
@@ -27,6 +28,7 @@ function findContent(props) {
     if (l.index == props) {
       ans = l.Title;
       cont = l.Content;
+      mistakes = l.Mistakes;
 
       for (var i = 0; i < l.Videos.length; i++) {
         videos.push(
@@ -54,7 +56,9 @@ function findContent(props) {
       <p class="note"> {nl2br(cont)} </p>
       <br/>
       {images}
-      <br /> <br />
+      <br />
+      <text class="m"> Common mistakes: {mistakes} </text>
+      <br />
       {videos}
     </div>
   );
