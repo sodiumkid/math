@@ -1,12 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './bootstrap.min.css';
 import './Resources.css';
+import { content } from "./Content.js";
 import {Link} from "react-router-dom";
 
 import animate from "animate.css";
 
-function Home() {
+function QuizSelect() {
   return (
     <div className="Home">
 
@@ -22,8 +22,8 @@ function Home() {
           <li class="nav-item">
             <Link class="nav-link" to="/resources">Resources</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/quizzes">Quiz</Link>
+          <li class="nav-item active">
+            <Link class="nav-link" to="/quizzes">Quiz  <span class="sr-only">(current)</span> </Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/about">About</Link>
@@ -36,17 +36,14 @@ function Home() {
 
       <body>
         <div class='container'>
-          <h1>Welcome to the Chapter 13 Final.</h1>
-          <h3> Made to help you go through chapter 13 with a breeze.</h3>
-          <h3>Go to the <Link to="/resources">Resources Page</Link> to access notes for Chapter 13 or take the <Link to="/quizzes"> Practice Quizzes here</Link>.</h3>
-          <br />
-          <br/>
-          <img src="https://ebooks.cpm.org/images/pc3.jpg" / >
-          <br /> <br /> <br /> <br />
+          <h1> Quizzes </h1> <br />
+          <Link class="links" to="/quiz/practice" > Practice Quiz </Link> <br />
+          <Link class="links" to="/quiz/short" > Short Answer </Link> <br/>
+          <Link class="links" to="/quiz/real" > Real World Problems </Link>
         </div>
       </body>
     </div>
   );
 }
 
-export default Home;
+export default QuizSelect;

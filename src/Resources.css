@@ -8,6 +8,10 @@ body {
   background-color: #fff9eb;
 }
 
+.container li {
+    font-size: 20pt;
+}
+
 .wrapper {
   margin-top: 10px;
 }

@@ -24,7 +24,7 @@ function Home() {
     <div className="Home">
 
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <img class="App-logo" src="https://res.cloudinary.com/drferrel/image/upload/v1589223893/misc/72061539_530606401005543_5876809008156770304_n_rusckn.png"/>
+      <img class="App-logo" src="https://res.cloudinary.com/drferrel/image/upload/v1590253595/misc/juarez/Screen_Shot_2015-09-12_at_8.29.53_AM_eyiler.png"/>
       <Link class="navbar-brand" to="/" >MATH FINAL</Link>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,7 +36,7 @@ function Home() {
             <Link class="nav-link" to="/resources">Resources <span class="sr-only">(current)</span></Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="/quiz">Quiz</Link>
+            <Link class="nav-link" to="/quizzes">Quiz</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="/about">About</Link>

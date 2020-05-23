@@ -5,7 +5,7 @@ export const content = {
       "Title" : "13.1.1 - Limits and which graphs are faster on going to infinity",
       "Content" : "Some graphs are faster than others. These are determined by the term with the highest degree, because when it goes to infinity all the other terms become irrelevant. Because of this, when considering which terms go towards infinity faster we can only consider the term with the highest degree.",
       "Files" : [],
-      "Mistakes" : "",
+      "Mistakes" : "The higher degree is what determines which graph goes faster and remember to watch out for “-”.",
       "Videos" : [],
       "World" : ""
     },
@@ -19,7 +19,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589305891/misc/juarez/Annotation_2020-05-12_105036_vkkavy.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Do not forget the existence of slant asymptotes, which occur when the power of the numerator is exactly one more than the power of the denominator.",
       "Videos" : [],
       "World" : ""
     },
@@ -33,7 +33,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589307770/misc/juarez/Annotation_2020-05-12_112231_eegq5n.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Just because plugging in x causes the function to divide by zero, it doesn’t mean that the limit is undefined. You can easily solve this issue by factoring and cancelling out terms.",
       "Videos" : [],
       "World" : ""
     },
@@ -51,7 +51,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589307961/misc/juarez/Annotation_2020-05-12_112548_iafjey.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that the number that you replace the 1 with is the coefficient of e^x.",
       "Videos" : [],
       "World" : ""
     },
@@ -60,7 +60,7 @@ export const content = {
       "Title" : "13.2.1 - Finding the area under graphs with trapezoids",
       "Content" : "Using trapezoids can help you estimate the area under a graph more accurately than just right and left endpoints. It turns out, averaging the right endpoints with the left endpoint angles gives a result equal to the area found using trapezoids, taking away the need to calculate triangles and rectangles. ",
       "Files" : [],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that to find the area under the curve with trapezoids, you find the average of the left and right endpoints. After adding the two rectangles, remember that you still have to divide them by 2.",
       "Videos" : [],
       "World" : ""
     },
@@ -74,7 +74,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589309083/misc/juarez/Annotation_2020-05-12_114434_qlql0q.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Similarly to how you can find the area under the curve with trapezoids, you can do the same for a trapezoid, where you also have to average the left and right endpoint rectangles. Remember that you still have to divide them by two after adding them to get the average, otherwise you will get an abnormally large number.",
       "Videos" : [
         {
           Link: "https://www.youtube.com/embed/1p0NHR5w0Lc"
@@ -96,7 +96,7 @@ export const content = {
       "Title" : "13.3.1 - Velocity and position graphs",
       "Content" : "Velocity is the speed of something in a given direction. Thus, the velocity is the slope of the position graph, since the position graph shows movement while velocity is the rate of movement. Additionally, you can find the total distance traveled by finding the area under the curve of the velocity graph, since distance is equal to rate x time, and in the velocity graph, the x axis is time while the y axis is velocity, or rate of change.",
       "Files" : [],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that if a change in direction occurs, velocity can be negative since velocity includes direction.",
       "Videos" : [],
       "World" : ""
     },
@@ -119,7 +119,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589309643/misc/juarez/Annotation_2020-05-12_115351_kzkwnp.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that when you are trying to find the slope of an equation, you are supposed to find the IROC of the function, not the AROC, as the IROC is the instantaneous slope, while the AROC is just an average slope of the two points as a whole.",
       "Videos" : [],
       "World" : ""
     },
@@ -133,7 +133,7 @@ export const content = {
           Link: "https://res.cloudinary.com/drferrel/image/upload/v1589309643/misc/juarez/Annotation_2020-05-12_115351_kzkwnp.png"
         }
       ],
-      "Mistakes" : "",
+      "Mistakes" : "Remember that the derivatives are the same as the slope of the equation, not the actual equation. Do not plug values into the derivative equation to find values, as you will only find the slope of the equation at that exact point, not the actual corresponding value.",
       "Videos" : [
         {
           Link: "https://www.youtube.com/embed/Hszu_Maneoo"
@@ -148,7 +148,7 @@ export const content = {
       "Files" : [],
       "Mistakes" : "",
       "Videos" : [],
-      "World" : ""
+      "World" : "Remember that the area under the curve in a slope function is also the distance traveled. Do not use the area under the curve of the position graph to calculate this value, as that has no significance."
     }
   ]
 }
